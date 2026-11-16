@@ -1,0 +1,95 @@
+media:
+  input: media
+  output: /media
+  categories: [image]
+
+content:
+  - name: projetos
+    label: Projetos
+    type: collection
+    path: content/projetos
+    format: json
+    filename: "{primary}.json"
+    view:
+      fields: [titulo, ano, localizacao]
+    fields:
+      - name: titulo
+        label: Nome do projeto
+        type: string
+        required: true
+      - name: publicado
+        label: Mostrar no site
+        type: boolean
+        default: true
+      - name: ordem
+        label: Ordem na lista (1 aparece primeiro)
+        type: number
+      - name: capa
+        label: Thumbnail (imagem da home)
+        type: image
+      - name: fotos
+        label: Fotos do projeto (na ordem do scroll)
+        type: image
+        list: true
+      - name: texto
+        label: Texto curto (aparece no fim da página)
+        type: text
+      - name: localizacao
+        label: Localização
+        type: string
+      - name: ano
+        label: Ano
+        type: string
+      - name: area
+        label: Área (m²)
+        type: string
+      - name: colaboradores
+        label: Colaboradores
+        type: text
+      - name: fotografia
+        label: Fotografia
+        type: string
+      - name: construcao
+        label: Construção
+        type: string
+      - name: cor_fundo
+        label: Cor de fundo da página
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
+      - name: cor_texto
+        label: Cor do texto e do logo
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
+
+  - name: estudio
+    label: Contato e rodapé
+    type: file
+    path: content/estudio.json
+    format: json
+    fields:
+      - name: nome
+        label: Nome do estúdio
+        type: string
+      - name: responsavel
+        label: Arquiteta responsável
+        type: string
+      - name: descricao
+        label: Descrição curta
+        type: string
+      - name: sobre
+        label: Texto da página Sobre
+        type: text
+      - name: cidade
+        label: Cidade
+        type: string
+      - name: email
+        label: E-mail
+        type: string
+      - name: telefone
+        label: Telefone
+        type: string
+      - name: instagram
+        label: Instagram (só o nome, sem @)
+        type: string
