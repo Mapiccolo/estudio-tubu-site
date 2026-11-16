@@ -81,6 +81,9 @@ content:
       - name: sobre
         label: Texto da página Sobre
         type: text
+      - name: foto_sobre
+        label: Foto da página Sobre (Marina)
+        type: image
       - name: cidade
         label: Cidade
         type: string
