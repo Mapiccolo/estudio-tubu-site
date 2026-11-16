@@ -49,7 +49,7 @@ img{display:block}
 .projeto{min-height:100vh}
 .proj-topo{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:flex-start;padding:40px var(--m);font-size:14px}
 .proj-topo .logo{width:56px}
-.fotos{display:flex;flex-direction:column;align-items:center;gap:160px;padding:40px var(--m) 0}
+.fotos{display:flex;flex-direction:column;align-items:center;gap:80px;padding:40px var(--m) 0}
 .fotos img{width:auto;max-width:min(100%,1180px);max-height:90vh;height:auto}
 .fim{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;max-width:1180px;margin:0 auto;padding:200px var(--m) 120px}
 .fim h1{font-weight:300;font-size:52px;line-height:1.05;letter-spacing:-.02em}
@@ -70,7 +70,7 @@ img{display:block}
   .lista-projetos{max-width:none}
   .lista-projetos a{display:block;padding:6px 0}
   .thumbs{grid-template-columns:1fr;gap:12px}
-  .fotos{gap:56px;padding-inline:0}
+  .fotos{gap:28px;padding-inline:0}
   .fotos img{max-width:100%;max-height:none;width:100%}
   .fim{grid-template-columns:1fr;gap:24px;padding-top:96px}
   .fim h1{font-size:34px}
