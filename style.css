@@ -36,11 +36,36 @@ img{display:block}
 .abertura-logo{position:absolute;margin:0;left:calc(var(--u) * 480);top:calc(var(--u) * 524);width:calc(var(--u) * 820)}
 .abertura-logo img{width:100%;height:auto}
 
-/* SOBRE e CONTATO */
+/* SOBRE: arte de 2000 × 1249 que cobre a tela (azul, faixa e círculo laranja);
+   texto no lado esquerdo do círculo e a foto da Marina no lado direito */
+.sobre{--u:calc((max(100vw, 100vh * 2000 / 1249) + 6px) / 2000);--laranja:#EE7F31;min-height:100vh}
+.sobre-arte{position:fixed;inset:0;overflow:hidden;background:#8CB4DB}
+.palco-sobre,.sobre-corpo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:calc(var(--u) * 2000);height:calc(var(--u) * 1249)}
+.s-faixa{position:absolute;left:calc(var(--u) * 104);width:calc(var(--u) * 164);top:-100vh;bottom:-100vh;background:var(--laranja)}
+.s-circulo{position:absolute;left:calc(var(--u) * 502);top:calc(var(--u) * -140);width:calc(var(--u) * 1450);aspect-ratio:1;border-radius:50%;background:var(--laranja)}
+/* arco laranja nos cantos da direita: tudo além do raio 950 em volta do centro do círculo */
+.s-anel{position:absolute;left:calc(var(--u) * 1227);right:-100vw;top:-100vh;bottom:-100vh;
+  background:radial-gradient(circle farthest-corner at 0 calc(100vh + var(--u) * 585), transparent calc(var(--u) * 950), var(--laranja) calc(var(--u) * 950 + 1px))}
+.sobre .proj-topo{position:fixed;left:0;right:0;z-index:2}
+.sobre-corpo{position:fixed;z-index:1}
+.sobre-texto{position:absolute;left:calc(var(--u) * 600);width:calc(var(--u) * 520);top:calc(var(--u) * 585);transform:translateY(-50%);
+  max-height:calc(var(--u) * 900);overflow:auto;font-size:max(15px, calc(var(--u) * 22));line-height:1.45}
+.sobre-texto p+p{margin-top:1em}
+.sobre-foto{position:absolute;left:calc(var(--u) * 1188);top:calc(var(--u) * 300);width:calc(var(--u) * 456);height:calc(var(--u) * 571);margin:0}
+.sobre-foto img{width:100%;height:100%;object-fit:cover}
+.sobre-foto.vazia{border:1px solid currentColor;display:flex;align-items:center;justify-content:center;font-size:max(13px, calc(var(--u) * 18))}
+.sobre-foto.vazia span{opacity:.55}
+/* tela em pé ou baixa demais: a arte fica de fundo e o conteúdo desce em coluna (foto, depois texto) */
+@media (max-aspect-ratio:11/10), (max-height:520px){
+  .sobre-corpo{position:relative;left:auto;top:auto;transform:none;width:auto;height:auto;display:flex;flex-direction:column-reverse;gap:32px;padding:150px 24px 64px;max-width:560px}
+  .sobre-texto,.sobre-foto{position:static;transform:none;width:auto;max-height:none;overflow:visible}
+  .sobre-texto{font-size:18px}
+  .sobre-foto{width:min(100%, 380px);height:auto;aspect-ratio:456/571}
+}
+
+/* CONTATO */
 .simples{min-height:100vh}
 .simples-corpo{padding:12vh var(--m) 16vh;max-width:820px}
-.sobre-texto{font-size:clamp(19px,1.8vw,26px);line-height:1.45}
-.sobre-texto p+p{margin-top:1em}
 .contato-lista{display:grid;grid-template-columns:max-content 1fr;gap:12px 40px;font-size:clamp(17px,1.5vw,21px)}
 .contato-lista dt{opacity:.7}
 .contato-lista a{text-decoration:underline;text-underline-offset:4px}
