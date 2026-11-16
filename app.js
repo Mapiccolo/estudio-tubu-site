@@ -33,13 +33,21 @@ function abertura() {
   scrollTo(0, 0);
 }
 
-// Projetos: página verde com a lista dos projetos à esquerda e os thumbnails à direita.
+// Projetos: arte da marca no fundo (triângulo e retângulo sobre a cor principal),
+// lista dos projetos à esquerda e os thumbnails à direita.
 // Ao passar o mouse num nome, as outras fotos apagam e fica só a dele.
 function projetos() {
-  // cores escolhidas no painel em "Aparência do site"; vazio = verde da marca com texto cinza claro
-  cores(CORES[A.projetos_fundo] || "#6D5F37", CORES[A.projetos_texto] || "#E6E6E6");
+  // cores escolhidas no painel em "Aparência do site"; vazio = cinza quente, formas em cinza frio, texto grafite
+  const fundo = CORES[A.projetos_fundo] || CORES["Cinza quente"];
+  const formas = CORES[A.projetos_formas] || CORES["Cinza frio"];
+  cores(fundo, CORES[A.projetos_texto] || CORES["Grafite"]);
   document.title = `Projetos — ${E.nome || "Estúdio Tubu"}`;
   app.innerHTML = `<div class="projetos">
+    <svg class="projetos-arte" viewBox="0 0 2000 1125" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <rect width="2000" height="1125" fill="${fundo}"/>
+      <polygon points="0,0 906,0 0,992" fill="${formas}"/>
+      <rect x="1220" y="0" width="780" height="750" fill="${formas}"/>
+    </svg>
     <header class="proj-topo"><a href="#" class="logo" aria-label="${esc(E.nome)}"></a>${menu("projetos")}</header>
     <div class="projetos-corpo">
       <ul class="lista-projetos">${P.map((p, i) => `<li><a href="#p-${p.slug}" data-i="${i}">${esc(p.titulo.toLowerCase())}</a></li>`).join("")}</ul>

@@ -104,12 +104,17 @@ content:
     format: json
     fields:
       - name: projetos_fundo
-        label: Cor de fundo da página de projetos (vazio = verde da marca)
+        label: Página de projetos — cor principal do fundo (vazio = Cinza quente)
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
+      - name: projetos_formas
+        label: Página de projetos — cor das formas, triângulo e retângulo (vazio = Cinza frio)
         type: select
         options:
           values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
       - name: projetos_texto
-        label: Cor do texto da página de projetos (vazio = cinza claro)
+        label: Página de projetos — cor do texto e do logo (vazio = Grafite)
         type: select
         options:
           values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
