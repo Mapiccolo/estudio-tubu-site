@@ -11,7 +11,7 @@ img{display:block}
   -webkit-mask:url(media/logo-tubu.png) center/contain no-repeat;mask:url(media/logo-tubu.png) center/contain no-repeat}
 
 /* PROJETOS: página verde, lista à esquerda e thumbnails à direita */
-.projetos{min-height:100vh;display:flex;flex-direction:column}
+.projetos{position:relative}
 /* arte do fundo (2000 × 1125): fica parada e cobre a tela; o conteúdo rola por cima */
 .projetos-arte{position:fixed;inset:0;width:100%;height:100%;z-index:0;transition:opacity .3s}
 .projetos>:not(.projetos-arte){position:relative;z-index:1}
@@ -62,7 +62,12 @@ img{display:block}
 .sobre-foto.vazia span{opacity:.55}
 /* tela em pé ou baixa demais: a arte fica de fundo e o conteúdo desce em coluna (foto, depois texto) */
 @media (max-aspect-ratio:11/10), (max-height:520px){
-  .sobre-corpo{position:relative;left:auto;top:auto;transform:none;width:auto;height:auto;display:flex;flex-direction:column-reverse;gap:32px;padding:150px 24px 64px;max-width:560px}
+  /* cabeçalho fixo e só o conteúdo rola abaixo dele */
+  .sobre{height:100vh;height:100dvh;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+  .sobre .proj-topo{position:relative;flex:none}
+  .sobre-corpo{position:relative;left:auto;top:auto;transform:none;width:auto;height:auto;flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;gap:32px;padding:16px 24px 64px}
+  .sobre-corpo>*{max-width:560px;flex-shrink:0}
+  .sobre-foto{order:-1}
   .sobre-texto,.sobre-foto{position:static;transform:none;width:auto;max-height:none;overflow:visible}
   .sobre-texto{font-size:18px}
   .sobre-foto{width:min(100%, 340px);height:auto;aspect-ratio:1;overflow:hidden}
@@ -78,9 +83,11 @@ img{display:block}
 .contato-lista a{text-decoration:underline;text-underline-offset:4px}
 
 /* PROJETO */
-.projeto{min-height:100vh}
-/* cabeçalho rola junto com a página (fixo, o logo grande ficava por cima da lista e das fotos) */
-.proj-topo{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:flex-start;padding:40px var(--m);font-size:14px}
+
+/* cabeçalho fixo no alto; só a área abaixo dele (.rolagem) rola, então nada passa por baixo do logo e do menu */
+.projetos,.projeto{height:100vh;height:100dvh;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+.rolagem{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain}
+.proj-topo{position:relative;flex:none;z-index:2;display:flex;justify-content:space-between;align-items:flex-start;padding:40px var(--m);font-size:14px}
 .proj-topo .logo{width:88px}
 .fotos{display:flex;flex-direction:column;align-items:center;gap:80px;padding:40px var(--m) 0}
 .fotos img{width:auto;max-width:min(100%,1180px);max-height:90vh;height:auto}

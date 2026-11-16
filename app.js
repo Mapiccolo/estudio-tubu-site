@@ -56,13 +56,13 @@ function projetos() {
       <rect x="1220" y="0" width="780" height="750" fill="${formas}"/>
     </svg>
     <header class="proj-topo"><a href="#" class="logo" aria-label="${esc(E.nome)}"></a>${menu("projetos")}</header>
-    <div class="projetos-corpo">
+    <div class="rolagem"><div class="projetos-corpo">
       <ul class="lista-projetos">${P.map((p, i) => `<li><a href="#p-${p.slug}" data-i="${i}">${esc(p.titulo.toLowerCase())}</a></li>`).join("")}</ul>
       <div class="thumbs">${P.map((p, i) => {
         const foto = p.capa || (p.fotos || [])[0];
         return `<a href="#p-${p.slug}" data-i="${i}" aria-label="${esc(p.titulo)}">${foto ? `<img src="${rel(foto)}" alt="" loading="lazy">` : ""}</a>`;
       }).join("")}</div>
-    </div>
+    </div></div>
   </div>`;
   const thumbs = app.querySelector(".thumbs");
   app.querySelectorAll(".lista-projetos a, .thumbs a").forEach((a) => {
@@ -127,6 +127,7 @@ function projeto(slug) {
   const fotos = p.fotos || [];
   app.innerHTML = `<div class="projeto">
     <header class="proj-topo"><a href="#" class="logo" aria-label="${esc(E.nome)}"></a>${menu("projetos")}</header>
+    <div class="rolagem">
     <div class="fotos">${fotos.length
       ? fotos.map((f) => `<img loading="lazy" src="${rel(f)}" alt="${esc(p.titulo)}">`).join("")
       : `<div class="vazio">fotos ainda não adicionadas</div>`}</div>
@@ -138,6 +139,7 @@ function projeto(slug) {
       </div>
     </section>
     <nav class="proj-rodape"><a href="#projetos">← Todos os projetos</a>${P.length > 1 ? `<a href="#p-${prox.slug}">Próximo: ${esc(prox.titulo)} →</a>` : ""}</nav>
+    </div>
   </div>`;
   scrollTo(0, 0);
 }
