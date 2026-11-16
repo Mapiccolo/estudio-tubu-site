@@ -103,6 +103,21 @@ content:
     path: content/aparencia.json
     format: json
     fields:
+      - name: home_fundo
+        label: Home — cor principal do fundo (vazio = verde original da arte)
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
+      - name: home_formas
+        label: Home — cor das formas (vazio = laranja original da arte)
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
+      - name: home_logo
+        label: Home — cor do logo e do menu (vazio = Cinza)
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
       - name: projetos_fundo
         label: Página de projetos — cor principal do fundo (vazio = Cinza quente)
         type: select

@@ -29,16 +29,16 @@ img{display:block}
 /* MENU: projetos, sobre, contato (canto superior direito) */
 .menu{display:flex;gap:28px;font-size:15px;font-weight:400;letter-spacing:.01em}
 .menu a[aria-current]{text-decoration:underline;text-underline-offset:4px}
-.abertura .menu{position:fixed;top:40px;right:48px;z-index:3}
-/* na abertura: menu à esquerda, sobre o verde (começa na forma verde, x=340 da arte) */
-.abertura .menu{color:#E6E6E6;right:auto;left:max(24px, calc(50vw + (340 - 1141) * var(--u)))}
+/* na abertura: menu no canto superior direito, no mesmo lugar das outras páginas */
+.abertura .menu{position:fixed;top:40px;right:var(--m);z-index:3}
 
 /* ABERTURA: a arte da marca (2282 × 1282) cobre a tela inteira; logo horizontal cinza no lugar do logotipo */
-.abertura{--u:calc((max(100vw, 100vh * 2282 / 1282) + 6px) / 2282);position:fixed;inset:0;overflow:hidden;background:#6D5F37}
+.abertura{--u:calc((max(100vw, 100vh * 2282 / 1282) + 6px) / 2282);position:fixed;inset:0;overflow:hidden}
 .palco-abertura{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:calc(var(--u) * 2282);height:calc(var(--u) * 1282)}
 .abertura-fundo{position:absolute;inset:0;width:100%;height:100%}
 .abertura-logo{position:absolute;margin:0;left:calc(var(--u) * 480);top:calc(var(--u) * 524);width:calc(var(--u) * 820)}
-.abertura-logo img{width:100%;height:auto}
+/* logo em PNG usado como máscara: pinta com a cor escolhida no painel (cor do texto da página) */
+.abertura-logo{aspect-ratio:1603/455;background:currentColor;-webkit-mask:url(media/logo-estudio-tubu-claro.png) center/contain no-repeat;mask:url(media/logo-estudio-tubu-claro.png) center/contain no-repeat}
 
 /* SOBRE: arte de 2000 × 1249 que cobre a tela (azul, faixa e círculo laranja);
    texto no lado esquerdo do círculo e a foto da Marina no lado direito */
@@ -79,7 +79,7 @@ img{display:block}
 /* PROJETO */
 .projeto{min-height:100vh}
 .proj-topo{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:flex-start;padding:40px var(--m);font-size:14px}
-.proj-topo .logo{width:56px}
+.proj-topo .logo{width:88px}
 .fotos{display:flex;flex-direction:column;align-items:center;gap:80px;padding:40px var(--m) 0}
 .fotos img{width:auto;max-width:min(100%,1180px);max-height:90vh;height:auto}
 .fim{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;max-width:1180px;margin:0 auto;padding:200px var(--m) 120px}
@@ -92,14 +92,13 @@ img{display:block}
 
 /* celular em pé */
 @media (max-aspect-ratio:4/5){
-  .abertura .menu{top:28px;left:24px;right:auto;gap:16px;font-size:14px}
-  /* logo horizontal: alinhado à esquerda da tela (com o menu), para não ser cortado */
+  /* logo horizontal: alinhado à esquerda da tela, para não ser cortado */
   .abertura-logo{left:calc(var(--u) * 1141 - 50vw + 24px);width:min(72vw, 440px)}
 }
 
 @media (max-width:760px){
   :root{--m:20px}
-  .logo{width:64px}
+  .logo,.proj-topo .logo{width:68px}
   .lista-projetos{max-width:none}
   .lista-projetos a{display:block;padding:6px 0}
   .thumbs{grid-template-columns:1fr;gap:12px}
