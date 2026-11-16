@@ -67,11 +67,13 @@ img{display:block}
   .sobre-foto{width:min(100%, 380px);height:auto;aspect-ratio:456/571}
 }
 
-/* CONTATO */
-.simples{min-height:100vh}
-.simples-corpo{padding:12vh var(--m) 16vh;max-width:820px}
-.contato-lista{display:grid;grid-template-columns:max-content 1fr;gap:12px 40px;font-size:clamp(17px,1.5vw,21px)}
-.contato-lista dt{opacity:.7}
+/* CONTATO: arte de 2000 × 1126 que cobre a tela; os contatos ficam onde estava o logo central da arte */
+.contato{--u:calc((max(100vw, 100vh * 2000 / 1126) + 6px) / 2000);min-height:100vh}
+.contato-arte{position:fixed;inset:0;width:100%;height:100%}
+.contato .proj-topo{position:fixed;left:0;right:0;z-index:2}
+.palco-contato{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:calc(var(--u) * 2000);height:calc(var(--u) * 1126);z-index:1;pointer-events:none}
+.contato-lista{position:absolute;left:calc(var(--u) * 850);top:calc(var(--u) * 510);list-style:none;pointer-events:auto;
+  display:flex;flex-direction:column;gap:.35em;font-size:max(16px, calc(var(--u) * 24));line-height:1.3}
 .contato-lista a{text-decoration:underline;text-underline-offset:4px}
 
 /* PROJETO */

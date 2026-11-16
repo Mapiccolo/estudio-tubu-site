@@ -118,3 +118,18 @@ content:
         type: select
         options:
           values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
+      - name: contato_fundo
+        label: Página de contato — cor principal do fundo (vazio = Verde musgo)
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
+      - name: contato_formas
+        label: Página de contato — cor das formas, faixas e arcos (vazio = Rosa)
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
+      - name: contato_texto
+        label: Página de contato — cor do texto e do logo (vazio = Cinza)
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]

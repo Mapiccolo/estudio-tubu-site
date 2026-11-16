@@ -68,16 +68,6 @@ function projetos() {
   scrollTo(0, 0);
 }
 
-// Contato: página simples, fundo vinho, texto claro
-function pagina(id, titulo, corpo) {
-  cores("#823321", "#C6C6C7");
-  document.title = `${titulo} — ${E.nome || "Estúdio Tubu"}`;
-  app.innerHTML = `<div class="simples">
-    <header class="proj-topo"><a href="#" class="logo" aria-label="${esc(E.nome)}"></a>${menu(id)}</header>
-    <main class="simples-corpo">${corpo}</main>
-  </div>`;
-  scrollTo(0, 0);
-}
 // Sobre: arte azul e laranja (faixa à esquerda, círculo grande), texto à esquerda e foto da Marina à direita
 function sobre() {
   cores("#8CB4DB", "#1D1B1E");
@@ -93,15 +83,30 @@ function sobre() {
   </div>`;
   scrollTo(0, 0);
 }
+// Contato: arte da marca (faixas e arcos) no fundo e os contatos no lugar do logo central.
+// Formas desenhadas a partir da arte enviada (2000 × 1126); cores escolhidas no painel em "Aparência do site".
+const FORMAS_CONTATO = "M104,0 L104,600 L336,600 L336,0Z M952,0 L952,21 L953,22 L953,34 L954,35 L954,47 L955,48 L955,56 L956,57 L956,67 L957,68 L959,88 L960,89 L960,94 L961,95 L961,100 L962,101 L962,106 L964,112 L966,127 L968,132 L968,136 L970,141 L970,145 L971,146 L974,161 L976,165 L976,168 L982,186 L982,189 L992,219 L994,222 L998,235 L1004,247 L1006,254 L1010,261 L1014,272 L1034,311 L1036,313 L1046,332 L1052,340 L1058,351 L1061,354 L1062,357 L1067,363 L1068,366 L1094,401 L1109,419 L1147,458 L1171,478 L1193,494 L1213,507 L1236,520 L1280,541 L1334,561 L1393,577 L1434,585 L1492,593 L1536,597 L1574,599 L1574,600 L2000,600 L2000,428 L1655,427 L1617,425 L1578,421 L1521,411 L1476,399 L1453,391 L1424,379 L1392,363 L1353,338 L1324,315 L1303,295 L1283,273 L1262,246 L1248,225 L1243,215 L1234,201 L1216,163 L1216,160 L1212,153 L1212,150 L1206,136 L1203,127 L1203,124 L1200,117 L1200,114 L1198,111 L1196,99 L1192,87 L1192,82 L1190,77 L1188,61 L1186,56 L1186,50 L1185,49 L1184,36 L1183,35 L1183,28 L1182,27 L1182,16 L1181,15 L1180,0Z M1998,338 L1990,343 L1933,371 L1894,387 L1856,400 L1808,413 L1778,419 L1734,425 L1704,427 L1704,428 L2000,428 L2000,338Z M0,743 L0,962 L7,962 L7,961 L10,960 L32,954 L94,942 L146,936 L183,934 L832,933 L801,910 L769,889 L732,867 L693,846 L637,820 L602,806 L556,790 L484,770 L412,756 L349,748 L293,744 L256,743Z M1340,743 L1339,744 L1339,1126 L1566,1126 L1566,743Z M238,934 L273,936 L311,940 L370,950 L425,964 L484,984 L513,996 L551,1014 L581,1030 L618,1052 L651,1074 L678,1094 L710,1120 L715,1126 L1019,1126 L1016,1120 L994,1091 L966,1057 L948,1037 L890,980 L856,951 L834,934Z";
 function contato() {
+  const fundo = CORES[A.contato_fundo] || CORES["Verde musgo"];
+  const formas = CORES[A.contato_formas] || CORES["Rosa"];
+  cores(fundo, CORES[A.contato_texto] || CORES["Cinza"]);
+  document.title = `Contato — ${E.nome || "Estúdio Tubu"}`;
   const ig = (E.instagram || "").replace(/^@/, "");
-  pagina("contato", "Contato", `<dl class="contato-lista">
-    ${E.responsavel ? `<dt>Arquiteta</dt><dd>${esc(E.responsavel)}</dd>` : ""}
-    ${E.email ? `<dt>E-mail</dt><dd><a href="mailto:${esc(E.email)}">${esc(E.email)}</a></dd>` : ""}
-    ${E.telefone ? `<dt>Telefone</dt><dd>${esc(E.telefone)}</dd>` : ""}
-    ${ig ? `<dt>Instagram</dt><dd><a href="https://instagram.com/${esc(ig)}">@${esc(ig)}</a></dd>` : ""}
-    ${E.cidade ? `<dt>Cidade</dt><dd>${esc(E.cidade)}</dd>` : ""}
-  </dl>`);
+  const fone = (E.telefone || "").replace(/\D/g, "");
+  app.innerHTML = `<div class="contato">
+    <svg class="contato-arte" viewBox="0 0 2000 1126" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <rect width="2000" height="1126" fill="${fundo}"/><path fill="${formas}" stroke="${formas}" stroke-width="2" stroke-linejoin="round" d="${FORMAS_CONTATO}"/>
+    </svg>
+    <header class="proj-topo"><a href="#" class="logo" aria-label="${esc(E.nome)}"></a>${menu("contato")}</header>
+    <div class="palco-contato"><ul class="contato-lista">
+      ${E.responsavel ? `<li>${esc(E.responsavel)}</li>` : ""}
+      ${E.email ? `<li><a href="mailto:${esc(E.email)}">${esc(E.email)}</a></li>` : ""}
+      ${E.telefone ? `<li><a href="tel:+55${fone}">${esc(E.telefone)}</a></li>` : ""}
+      ${ig ? `<li><a href="https://instagram.com/${esc(ig)}" target="_blank" rel="noopener">@${esc(ig)}</a></li>` : ""}
+      ${E.cidade ? `<li>${esc(E.cidade)}</li>` : ""}
+    </ul></div>
+  </div>`;
+  scrollTo(0, 0);
 }
 
 function projeto(slug) {
