@@ -84,9 +84,12 @@ img{display:block}
 
 /* PROJETO */
 
-/* cabeçalho fixo no alto; só a área abaixo dele (.rolagem) rola, então nada passa por baixo do logo e do menu */
-.projetos,.projeto{height:100vh;height:100dvh;min-height:0;display:flex;flex-direction:column;overflow:hidden}
-.rolagem{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain}
+/* lista de projetos: cabeçalho fixo no alto e só a área abaixo dele (.rolagem) rola, sem passar por baixo do logo */
+.projetos{height:100vh;height:100dvh;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+.projetos .rolagem{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain}
+/* página de cada projeto: cabeçalho fixo e as fotos sobem por baixo dele, vazando na mancha do site */
+.projeto{min-height:100vh}
+.projeto .proj-topo{position:sticky;top:0}
 .proj-topo{position:relative;flex:none;z-index:2;display:flex;justify-content:space-between;align-items:flex-start;padding:40px var(--m);font-size:14px}
 .proj-topo .logo{width:88px}
 .fotos{display:flex;flex-direction:column;align-items:center;gap:80px;padding:40px var(--m) 0}
