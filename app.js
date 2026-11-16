@@ -19,14 +19,14 @@ function cores(fundo, texto) {
 const menu = (atual) => `<nav class="menu" aria-label="Menu">${[["projetos", "projetos"], ["sobre", "sobre"], ["contato", "contato"]]
   .map(([h, t]) => `<a href="#${h}"${h === atual ? ' aria-current="page"' : ""}>${t}</a>`).join("")}</nav>`;
 
-// Abertura: a página inteira com a arte da marca (verde musgo e laranja) e o logo vertical em cinza
+// Abertura: a página inteira com a arte da marca (verde musgo e laranja) e o logo horizontal "Estúdio tubù" em cinza
 function abertura() {
   cores("#6D5F37");
   document.title = E.nome || "Estúdio Tubu";
   app.innerHTML = `<div class="abertura">
     <div class="palco-abertura">
       <img class="abertura-fundo" src="media/abertura-fundo.png" alt="">
-      <h1 class="abertura-logo"><img src="media/logo-claro.png" alt="${esc(E.nome || "Estúdio Tubu")}"></h1>
+      <h1 class="abertura-logo"><img src="media/logo-estudio-tubu-claro.png" alt="${esc(E.nome || "Estúdio Tubu")}"></h1>
     </div>
     ${menu("")}
   </div>`;
