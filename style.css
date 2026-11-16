@@ -92,8 +92,9 @@ img{display:block}
 .proj-topo .logo{width:88px}
 .fotos{display:flex;flex-direction:column;align-items:center;gap:80px;padding:40px var(--m) 0}
 .fotos img{width:auto;max-width:min(100%,1180px);max-height:90vh;height:auto}
-/* duas fotos na mesma linha (marcadas "lado a lado" no painel); altura limitada para caber na tela */
-.fotos .par{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start;width:100%;max-width:min(1180px, calc(90vh * 4 / 3 + 24px))}
+/* duas fotos na mesma linha (marcadas "lado a lado" no painel): o par ocupa a mesma largura
+   de uma foto horizontal 3:2 (largura máxima 1180px e altura máxima 90% da tela), alinhado por fora */
+.fotos .par{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start;width:100%;max-width:min(1180px, calc(90vh * 3 / 2))}
 .fotos .par img{width:100%;max-width:none;max-height:none}
 .fim{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px;max-width:1180px;margin:0 auto;padding:200px var(--m) 120px}
 .fim h1{font-weight:300;font-size:52px;line-height:1.05;letter-spacing:-.02em}

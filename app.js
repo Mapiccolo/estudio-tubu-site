@@ -152,6 +152,17 @@ function projeto(slug) {
     <nav class="proj-rodape"><a href="#projetos">← Todos os projetos</a>${P.length > 1 ? `<a href="#p-${prox.slug}">Próximo: ${esc(prox.titulo)} →</a>` : ""}</nav>
     </div>
   </div>`;
+  // par de fotos lado a lado: mesma largura da foto horizontal mais próxima (alinhado por fora)
+  const alinharPares = () => app.querySelectorAll(".fotos .par").forEach((par) => {
+    const horiz = (el) => el && el.tagName === "IMG" && el.naturalWidth > el.naturalHeight;
+    let ref = null;
+    for (let el = par.previousElementSibling; el && !ref; el = el.previousElementSibling) if (horiz(el)) ref = el;
+    for (let el = par.nextElementSibling; el && !ref; el = el.nextElementSibling) if (horiz(el)) ref = el;
+    par.style.maxWidth = ref ? `${ref.getBoundingClientRect().width}px` : "";
+  });
+  app.querySelectorAll(".fotos img").forEach((im) => im.addEventListener("load", alinharPares));
+  onresize = alinharPares;
+  alinharPares();
   scrollTo(0, 0);
 }
 
