@@ -50,7 +50,7 @@
     },
     {
       "imagem": "/media/monkey-land/monkey-land-16.jpg",
-      "lado_a_lado": false
+      "lado_a_lado": true
     },
     {
       "imagem": "/media/monkey-land/monkey-land-17.jpg",
