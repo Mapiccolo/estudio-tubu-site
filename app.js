@@ -42,7 +42,7 @@ function abertura() {
 
 // Projetos: arte da marca no fundo (triângulo e retângulo sobre a cor principal),
 // lista dos projetos à esquerda e os thumbnails à direita.
-// Ao passar o mouse num nome, as outras fotos apagam e fica só a dele.
+// Ao passar o mouse numa foto, o nome do projeto na lista fica sublinhado.
 function projetos() {
   // cores escolhidas no painel em "Aparência do site"; vazio = cinza quente, formas em cinza frio, texto grafite
   const fundo = CORES[A.projetos_fundo] || CORES["Cinza quente"];
@@ -64,11 +64,12 @@ function projetos() {
       }).join("")}</div>
     </div></div>
   </div>`;
-  const thumbs = app.querySelector(".thumbs");
-  app.querySelectorAll(".lista-projetos a, .thumbs a").forEach((a) => {
-    const t = thumbs.children[a.dataset.i];
-    const on = () => { thumbs.classList.add("foco"); t.classList.add("ativo"); };
-    const off = () => { thumbs.classList.remove("foco"); t.classList.remove("ativo"); };
+  // ao passar o mouse numa foto, o nome do projeto na lista fica sublinhado
+  const nomes = app.querySelectorAll(".lista-projetos a");
+  app.querySelectorAll(".thumbs a").forEach((a) => {
+    const t = nomes[a.dataset.i];
+    const on = () => t.classList.add("ativo");
+    const off = () => t.classList.remove("ativo");
     a.addEventListener("mouseenter", on); a.addEventListener("mouseleave", off);
     a.addEventListener("focus", on); a.addEventListener("blur", off);
   });
