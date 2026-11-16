@@ -29,8 +29,16 @@ content:
         type: image
       - name: fotos
         label: Fotos do projeto (na ordem do scroll)
-        type: image
+        type: object
         list: true
+        fields:
+          - name: imagem
+            label: Foto
+            type: image
+          - name: lado_a_lado
+            label: Lado a lado com a próxima foto (para duas fotos verticais na mesma linha)
+            type: boolean
+            default: false
       - name: texto
         label: Texto curto (aparece no fim da página)
         type: text

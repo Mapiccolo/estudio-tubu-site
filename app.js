@@ -59,7 +59,7 @@ function projetos() {
     <div class="rolagem"><div class="projetos-corpo">
       <ul class="lista-projetos">${P.map((p, i) => `<li><a href="#p-${p.slug}" data-i="${i}">${esc(p.titulo.toLowerCase())}</a></li>`).join("")}</ul>
       <div class="thumbs">${P.map((p, i) => {
-        const foto = p.capa || (p.fotos || [])[0];
+        const foto = p.capa || (listaFotos(p)[0] || {}).imagem;
         return `<a href="#p-${p.slug}" data-i="${i}" aria-label="${esc(p.titulo)}">${foto ? `<img src="${rel(foto)}" alt="" loading="lazy">` : ""}</a>`;
       }).join("")}</div>
     </div></div>
@@ -117,6 +117,9 @@ function contato() {
   scrollTo(0, 0);
 }
 
+// fotos de um projeto: aceita o formato antigo (só o caminho) e o novo ({ imagem, lado_a_lado })
+const listaFotos = (p) => (p.fotos || []).map((f) => (typeof f === "string" ? { imagem: f } : f)).filter((f) => f && f.imagem);
+
 function projeto(slug) {
   const i = P.findIndex((p) => p.slug === slug);
   if (i < 0) return projetos();
@@ -125,12 +128,19 @@ function projeto(slug) {
   document.title = `${p.titulo} — ${E.nome || "Estúdio Tubu"}`;
   const ficha = [["Localização", p.localizacao], ["Ano", p.ano], ["Área", p.area], ["Colaboradores", p.colaboradores],
     ["Fotografia", p.fotografia], ["Construção", p.construcao]].filter(([, v]) => v);
-  const fotos = p.fotos || [];
+  const fotos = listaFotos(p);
+  const img = (f) => `<img loading="lazy" src="${rel(f.imagem)}" alt="${esc(p.titulo)}">`;
+  // foto marcada "lado a lado" vai na mesma linha que a próxima
+  let htmlFotos = "";
+  for (let k = 0; k < fotos.length; k++) {
+    if (fotos[k].lado_a_lado && fotos[k + 1]) { htmlFotos += `<div class="par">${img(fotos[k])}${img(fotos[k + 1])}</div>`; k++; }
+    else htmlFotos += img(fotos[k]);
+  }
   app.innerHTML = `<div class="projeto">
     <header class="proj-topo"><a href="#" class="logo" aria-label="${esc(E.nome)}"></a>${menu("projetos")}</header>
     <div class="rolagem">
     <div class="fotos">${fotos.length
-      ? fotos.map((f) => `<img loading="lazy" src="${rel(f)}" alt="${esc(p.titulo)}">`).join("")
+      ? htmlFotos
       : `<div class="vazio">fotos ainda não adicionadas</div>`}</div>
     <section class="fim">
       <div><h1>${esc(p.titulo)}</h1><p class="sub">${[p.localizacao, p.ano].filter(Boolean).map(esc).join(" · ")}</p></div>

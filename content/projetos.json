@@ -1,264 +1,749 @@
 [
   {
-    "slug": "monkey-land",
-    "titulo": "Monkey Land",
-    "publicado": true,
-    "ordem": 1,
-    "capa": "/media/monkey-land/monkey-land-01.jpg",
-    "fotos": [
-      "/media/monkey-land/monkey-land-01.jpg",
-      "/media/monkey-land/monkey-land-02.jpg",
-      "/media/monkey-land/monkey-land-03.jpg",
-      "/media/monkey-land/monkey-land-04.jpg",
-      "/media/monkey-land/monkey-land-05.jpg",
-      "/media/monkey-land/monkey-land-06.jpg",
-      "/media/monkey-land/monkey-land-07.jpg",
-      "/media/monkey-land/monkey-land-08.jpg",
-      "/media/monkey-land/monkey-land-09.jpg",
-      "/media/monkey-land/monkey-land-10.jpg",
-      "/media/monkey-land/monkey-land-11.jpg",
-      "/media/monkey-land/monkey-land-12.jpg",
-      "/media/monkey-land/monkey-land-13.jpg",
-      "/media/monkey-land/monkey-land-14.jpg",
-      "/media/monkey-land/monkey-land-15.jpg",
-      "/media/monkey-land/monkey-land-16.jpg",
-      "/media/monkey-land/monkey-land-17.jpg",
-      "/media/monkey-land/monkey-land-18.jpg",
-      "/media/monkey-land/monkey-land-19.jpg",
-      "/media/monkey-land/monkey-land-20.jpg",
-      "/media/monkey-land/monkey-land-21.jpg",
-      "/media/monkey-land/monkey-land-22.jpg",
-      "/media/monkey-land/monkey-land-23.jpg",
-      "/media/monkey-land/monkey-land-24.jpg",
-      "/media/monkey-land/monkey-land-25.jpg",
-      "/media/monkey-land/monkey-land-26.jpg",
-      "/media/monkey-land/monkey-land-27.jpg",
-      "/media/monkey-land/monkey-land-28.jpg",
-      "/media/monkey-land/monkey-land-29.jpg",
-      "/media/monkey-land/monkey-land-30.jpg",
-      "/media/monkey-land/monkey-land-31.jpg",
-      "/media/monkey-land/monkey-land-32.jpg"
-    ],
-    "texto": "Projeto e obra para agência de publicidade Monkey Land, que ocupa uma típica “casinha de vó” numa charmosa rua de Pinheiros.",
-    "localizacao": "Pinheiros, São Paulo",
-    "ano": "2023",
-    "area": "",
-    "colaboradores": "Lucas Millher",
-    "fotografia": "Ana Helena Lima",
-    "construcao": "",
-    "cor_fundo": "Azul",
-    "cor_texto": "Grafite"
-  },
-  {
     "slug": "casa-riacho-do-campo",
     "titulo": "Casa Riacho do Campo",
     "publicado": true,
-    "ordem": 2,
-    "capa": "/media/casa-riacho-do-campo/casa-riacho-do-campo-01.jpg",
+    "ordem": 1,
+    "capa": "/media/casa-riacho-do-campo/casa-riacho-do-campo-36.jpg",
     "fotos": [
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-01.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-02.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-03.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-04.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-05.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-06.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-07.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-08.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-09.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-10.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-11.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-12.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-13.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-14.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-15.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-16.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-17.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-18.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-19.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-20.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-21.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-22.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-23.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-24.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-25.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-26.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-27.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-28.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-29.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-30.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-31.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-32.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-33.jpg",
-      "/media/casa-riacho-do-campo/casa-riacho-do-campo-34.jpg"
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-01.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-02.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-03.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-04.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-05.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-06.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-07.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-08.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-09.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-10.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-11.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-12.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-13.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-14.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-15.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-16.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-17.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-18.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-19.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-20.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-21.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-22.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-23.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-24.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-25.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-26.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-27.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-28.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-29.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-30.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-31.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-32.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-33.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-34.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-35.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-36.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-37.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-38.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-39.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-40.jpg",
+        "lado_a_lado": false
+      }
     ],
     "texto": "Projeto para casa de campo em fazenda no interior de Minas Gerais.",
     "localizacao": "Minas Gerais",
     "ano": "2022",
-    "area": "",
-    "colaboradores": "",
     "fotografia": "Valentina Tong",
-    "construcao": "",
-    "cor_fundo": "Verde musgo",
-    "cor_texto": "Rosa"
+    "cor_fundo": "Cinza frio",
+    "cor_texto": "Grafite"
   },
   {
     "slug": "casa-alto-de-pinheiro",
-    "titulo": "Casa Alto de Pinheiro",
+    "titulo": "Casa Vermelha",
     "publicado": true,
-    "ordem": 3,
-    "capa": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-01.jpg",
+    "ordem": 2,
+    "capa": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-18.jpg",
     "fotos": [
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-01.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-02.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-03.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-04.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-05.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-06.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-07.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-08.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-09.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-10.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-11.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-12.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-13.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-14.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-15.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-16.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-17.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-18.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-19.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-20.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-21.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-22.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-23.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-24.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-25.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-26.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-27.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-28.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-29.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-30.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-31.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-32.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-33.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-34.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-35.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-36.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-37.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-38.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-39.jpg",
-      "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-40.jpg"
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-01.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-02.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-03.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-04.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-05.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-06.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-07.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-08.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-09.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-10.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-11.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-12.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-13.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-14.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-15.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-16.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-17.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-18.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-19.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-20.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-21.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-22.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-23.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-24.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-25.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-26.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-27.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-28.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-29.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-30.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-31.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-32.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-33.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-34.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-35.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-36.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-37.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-38.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-39.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-40.jpg",
+        "lado_a_lado": false
+      }
     ],
     "texto": "Reforma de casa familiar em Pinheiros.",
     "localizacao": "São Paulo",
     "ano": "2025",
-    "area": "",
-    "colaboradores": "",
     "fotografia": "Manuel Sá",
-    "construcao": "",
-    "cor_fundo": "Vinho",
-    "cor_texto": "Azul"
+    "cor_fundo": "Cinza frio",
+    "cor_texto": "Grafite"
   },
   {
     "slug": "sitio-sapucai-mirim",
     "titulo": "Sítio Sapucaí Mirim",
     "publicado": true,
-    "ordem": 4,
-    "capa": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-01.jpg",
+    "ordem": 3,
+    "capa": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-36.jpg",
     "fotos": [
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-01.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-02.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-03.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-04.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-05.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-06.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-07.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-08.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-09.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-10.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-11.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-12.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-13.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-14.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-15.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-16.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-17.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-18.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-19.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-20.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-21.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-22.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-23.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-24.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-25.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-26.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-27.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-28.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-29.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-30.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-31.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-32.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-33.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-34.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-35.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-36.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-37.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-38.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-39.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-40.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-41.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-42.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-43.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-44.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-45.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-46.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-47.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-48.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-49.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-50.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-51.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-52.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-53.jpg",
-      "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-54.jpg"
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-01.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-02.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-03.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-04.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-05.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-06.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-07.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-08.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-09.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-10.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-11.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-12.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-13.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-14.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-15.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-16.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-17.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-18.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-19.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-20.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-21.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-22.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-23.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-24.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-25.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-26.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-27.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-28.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-29.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-30.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-31.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-32.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-33.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-34.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-35.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-36.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-37.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-38.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-39.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-40.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-41.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-42.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-43.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-44.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-45.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-46.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-47.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-48.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-49.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-50.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-51.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-52.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-53.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-54.jpg",
+        "lado_a_lado": false
+      }
     ],
     "texto": "Reforma de casa familiar na Serra da Mantiqueira.",
     "localizacao": "Sapucaí Mirim, Minas Gerais",
     "ano": "2023",
-    "area": "",
-    "colaboradores": "",
     "fotografia": "Ana Helena Lima",
-    "construcao": "",
-    "cor_fundo": "Laranja",
-    "cor_texto": "Vinho"
+    "cor_fundo": "Cinza frio",
+    "cor_texto": "Grafite"
   },
   {
     "slug": "casa-colorida",
     "titulo": "Casa Colorida",
     "publicado": true,
-    "ordem": 5,
-    "capa": "/media/casa-colorida/casa-colorida-01.jpg",
+    "ordem": 4,
+    "capa": "/media/casa-colorida/casa-colorida-07.jpg",
     "fotos": [
-      "/media/casa-colorida/casa-colorida-01.jpg",
-      "/media/casa-colorida/casa-colorida-02.jpg",
-      "/media/casa-colorida/casa-colorida-03.jpg",
-      "/media/casa-colorida/casa-colorida-04.jpg",
-      "/media/casa-colorida/casa-colorida-05.jpg",
-      "/media/casa-colorida/casa-colorida-06.jpg",
-      "/media/casa-colorida/casa-colorida-07.jpg",
-      "/media/casa-colorida/casa-colorida-08.jpg",
-      "/media/casa-colorida/casa-colorida-09.jpg",
-      "/media/casa-colorida/casa-colorida-10.jpg",
-      "/media/casa-colorida/casa-colorida-11.jpg",
-      "/media/casa-colorida/casa-colorida-12.jpg"
+      {
+        "imagem": "/media/casa-colorida/casa-colorida-01.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-colorida/casa-colorida-02.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-colorida/casa-colorida-03.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-colorida/casa-colorida-04.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-colorida/casa-colorida-05.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-colorida/casa-colorida-07.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-colorida/casa-colorida-06.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-colorida/casa-colorida-08.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-colorida/casa-colorida-10.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-colorida/casa-colorida-09.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-colorida/casa-colorida-11.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/casa-colorida/casa-colorida-12.jpg",
+        "lado_a_lado": false
+      }
     ],
     "texto": "Reforma de casa para aluguel de fim de semana na Serra da Mantiqueira.",
     "localizacao": "Sapucaí Mirim, Minas Gerais",
     "ano": "2026",
-    "area": "",
-    "colaboradores": "",
     "fotografia": "Ana Helena Lima",
-    "construcao": "",
-    "cor_fundo": "Rosa",
+    "cor_fundo": "Cinza frio",
     "cor_texto": "Grafite"
+  },
+  {
+    "slug": "monkey-land",
+    "titulo": "Monkey Land",
+    "publicado": true,
+    "ordem": 5,
+    "capa": "/media/monkey-land/monkey-land-13.jpg",
+    "fotos": [
+      {
+        "imagem": "/media/monkey-land/monkey-land-01.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-03.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-04.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-05.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-07.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-10.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-11.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-12.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-13.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-14.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-15.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-16.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-17.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-18.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-19.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-21.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-23.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-25.jpg",
+        "lado_a_lado": false
+      },
+      {
+        "imagem": "/media/monkey-land/monkey-land-28.jpg",
+        "lado_a_lado": false
+      }
+    ],
+    "texto": "Projeto e obra para agência de publicidade Monkey Land, que ocupa uma típica “casinha de vó” numa charmosa rua de Pinheiros.",
+    "localizacao": "Pinheiros, São Paulo",
+    "ano": "2023",
+    "colaboradores": "Lucas Millher",
+    "fotografia": "Ana Helena Lima",
+    "cor_fundo": "Cinza frio",
+    "cor_texto": "Grafite"
+  },
+  {
+    "slug": "casa-carro",
+    "titulo": "Casa Carro",
+    "publicado": true,
+    "fotos": [
+      {
+        "imagem": "/media/casa-carro/casa-carro-01.jpg",
+        "lado_a_lado": false
+      }
+    ]
   }
 ]

@@ -2,6 +2,9 @@
   "titulo": "Casa Carro",
   "publicado": true,
   "fotos": [
-    "/media/casa-carro/casa-carro-01.jpg"
+    {
+      "imagem": "/media/casa-carro/casa-carro-01.jpg",
+      "lado_a_lado": false
+    }
   ]
 }

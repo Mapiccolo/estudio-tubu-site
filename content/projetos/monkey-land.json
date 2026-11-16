@@ -4,25 +4,82 @@
   "ordem": 5,
   "capa": "/media/monkey-land/monkey-land-13.jpg",
   "fotos": [
-    "/media/monkey-land/monkey-land-01.jpg",
-    "/media/monkey-land/monkey-land-03.jpg",
-    "/media/monkey-land/monkey-land-04.jpg",
-    "/media/monkey-land/monkey-land-05.jpg",
-    "/media/monkey-land/monkey-land-07.jpg",
-    "/media/monkey-land/monkey-land-10.jpg",
-    "/media/monkey-land/monkey-land-11.jpg",
-    "/media/monkey-land/monkey-land-12.jpg",
-    "/media/monkey-land/monkey-land-13.jpg",
-    "/media/monkey-land/monkey-land-14.jpg",
-    "/media/monkey-land/monkey-land-15.jpg",
-    "/media/monkey-land/monkey-land-16.jpg",
-    "/media/monkey-land/monkey-land-17.jpg",
-    "/media/monkey-land/monkey-land-18.jpg",
-    "/media/monkey-land/monkey-land-19.jpg",
-    "/media/monkey-land/monkey-land-21.jpg",
-    "/media/monkey-land/monkey-land-23.jpg",
-    "/media/monkey-land/monkey-land-25.jpg",
-    "/media/monkey-land/monkey-land-28.jpg"
+    {
+      "imagem": "/media/monkey-land/monkey-land-01.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-03.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-04.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-05.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-07.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-10.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-11.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-12.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-13.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-14.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-15.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-16.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-17.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-18.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-19.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-21.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-23.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-25.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-28.jpg",
+      "lado_a_lado": false
+    }
   ],
   "texto": "Projeto e obra para agência de publicidade Monkey Land, que ocupa uma típica “casinha de vó” numa charmosa rua de Pinheiros.",
   "localizacao": "Pinheiros, São Paulo",

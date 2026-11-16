@@ -4,46 +4,166 @@
   "ordem": 2,
   "capa": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-18.jpg",
   "fotos": [
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-01.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-02.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-03.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-04.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-05.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-06.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-07.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-08.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-09.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-10.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-11.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-12.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-13.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-14.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-15.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-16.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-17.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-18.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-19.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-20.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-21.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-22.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-23.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-24.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-25.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-26.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-27.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-28.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-29.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-30.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-31.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-32.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-33.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-34.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-35.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-36.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-37.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-38.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-39.jpg",
-    "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-40.jpg"
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-01.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-02.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-03.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-04.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-05.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-06.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-07.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-08.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-09.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-10.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-11.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-12.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-13.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-14.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-15.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-16.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-17.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-18.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-19.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-20.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-21.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-22.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-23.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-24.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-25.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-26.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-27.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-28.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-29.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-30.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-31.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-32.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-33.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-34.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-35.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-36.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-37.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-38.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-39.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-40.jpg",
+      "lado_a_lado": false
+    }
   ],
   "texto": "Reforma de casa familiar em Pinheiros.",
   "localizacao": "São Paulo",
