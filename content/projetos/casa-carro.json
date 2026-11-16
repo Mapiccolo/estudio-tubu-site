@@ -1,4 +1,7 @@
 {
   "titulo": "Casa Carro",
-  "publicado": true
+  "publicado": true,
+  "fotos": [
+    "/media/casa-carro/casa-carro-01.jpg"
+  ]
 }
