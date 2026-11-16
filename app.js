@@ -7,7 +7,7 @@ const CORES = {
 const app = document.getElementById("app");
 const rel = (p) => (p || "").replace(/^\//, "");
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-let E = {}, P = [];
+let E = {}, P = [], A = {};
 
 function cores(fundo, texto) {
   document.body.style.background = fundo || "";
@@ -36,7 +36,8 @@ function abertura() {
 // Projetos: página verde com a lista dos projetos à esquerda e os thumbnails à direita.
 // Ao passar o mouse num nome, as outras fotos apagam e fica só a dele.
 function projetos() {
-  cores("#6D5F37", "#E6E6E6");
+  // cores escolhidas no painel em "Aparência do site"; vazio = verde da marca com texto cinza claro
+  cores(CORES[A.projetos_fundo] || "#6D5F37", CORES[A.projetos_texto] || "#E6E6E6");
   document.title = `Projetos — ${E.nome || "Estúdio Tubu"}`;
   app.innerHTML = `<div class="projetos">
     <header class="proj-topo"><a href="#" class="logo" aria-label="${esc(E.nome)}"></a>${menu("projetos")}</header>
@@ -130,6 +131,10 @@ function rota() {
   else abertura();
 }
 
-Promise.all([fetch("content/estudio.json").then((r) => r.json()), fetch("content/projetos.json").then((r) => r.json())])
-  .then(([e, p]) => { E = e; P = p; addEventListener("hashchange", rota); rota(); })
+Promise.all([
+  fetch("content/estudio.json").then((r) => r.json()),
+  fetch("content/projetos.json").then((r) => r.json()),
+  fetch("content/aparencia.json").then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
+])
+  .then(([e, p, a]) => { E = e; P = p; A = a || {}; addEventListener("hashchange", rota); rota(); })
   .catch(() => { app.innerHTML = `<p style="padding:48px">Não foi possível carregar o conteúdo.</p>`; });

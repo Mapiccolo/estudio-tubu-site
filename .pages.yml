@@ -96,3 +96,20 @@ content:
       - name: instagram
         label: Instagram (só o nome, sem @)
         type: string
+
+  - name: aparencia
+    label: Aparência do site
+    type: file
+    path: content/aparencia.json
+    format: json
+    fields:
+      - name: projetos_fundo
+        label: Cor de fundo da página de projetos (vazio = verde da marca)
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
+      - name: projetos_texto
+        label: Cor do texto da página de projetos (vazio = cinza claro)
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
