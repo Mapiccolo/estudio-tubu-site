@@ -15,7 +15,7 @@ img{display:block}
 /* arte do fundo (2000 × 1125): fica parada e cobre a tela; o conteúdo rola por cima */
 .projetos-arte{position:fixed;inset:0;width:100%;height:100%;z-index:0;transition:opacity .3s}
 .projetos>:not(.projetos-arte){position:relative;z-index:1}
-.projetos>.proj-topo{position:sticky;z-index:2}
+.projetos>.proj-topo{z-index:2}
 .projetos-corpo{display:flex;flex-wrap:wrap;gap:48px;align-items:flex-start;padding:4vh var(--m) 10vh}
 .lista-projetos{flex:1 1 220px;max-width:280px;display:flex;flex-direction:column;gap:6px;list-style:none;font-size:17px}
 .lista-projetos a:hover,.lista-projetos a:focus{opacity:1;text-decoration:underline;text-underline-offset:4px}
@@ -50,7 +50,7 @@ img{display:block}
 /* arco laranja nos cantos da direita: tudo além do raio 950 em volta do centro do círculo */
 .s-anel{position:absolute;left:calc(var(--u) * 1227);right:-100vw;top:-100vh;bottom:-100vh;
   background:radial-gradient(circle farthest-corner at 0 calc(100vh + var(--u) * 585), transparent calc(var(--u) * 950), var(--laranja) calc(var(--u) * 950 + 1px))}
-.sobre .proj-topo{position:fixed;left:0;right:0;z-index:2}
+.sobre .proj-topo{position:absolute;top:0;left:0;right:0;z-index:2}
 .sobre-corpo{position:fixed;z-index:1}
 .sobre-texto{position:absolute;left:calc(var(--u) * 600);width:calc(var(--u) * 520);top:calc(var(--u) * 585);transform:translateY(-50%);
   max-height:calc(var(--u) * 900);overflow:auto;font-size:max(15px, calc(var(--u) * 22));line-height:1.45}
@@ -79,7 +79,8 @@ img{display:block}
 
 /* PROJETO */
 .projeto{min-height:100vh}
-.proj-topo{position:sticky;top:0;z-index:2;display:flex;justify-content:space-between;align-items:flex-start;padding:40px var(--m);font-size:14px}
+/* cabeçalho rola junto com a página (fixo, o logo grande ficava por cima da lista e das fotos) */
+.proj-topo{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:flex-start;padding:40px var(--m);font-size:14px}
 .proj-topo .logo{width:88px}
 .fotos{display:flex;flex-direction:column;align-items:center;gap:80px;padding:40px var(--m) 0}
 .fotos img{width:auto;max-width:min(100%,1180px);max-height:90vh;height:auto}
