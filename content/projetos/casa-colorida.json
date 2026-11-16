@@ -2,7 +2,7 @@
   "titulo": "Casa Colorida",
   "publicado": true,
   "ordem": 5,
-  "capa": "/media/casa-colorida/casa-colorida-01.jpg",
+  "capa": "/media/casa-colorida/casa-colorida-03.jpg",
   "fotos": [
     "/media/casa-colorida/casa-colorida-01.jpg",
     "/media/casa-colorida/casa-colorida-02.jpg",
@@ -20,10 +20,7 @@
   "texto": "Reforma de casa para aluguel de fim de semana na Serra da Mantiqueira.",
   "localizacao": "Sapucaí Mirim, Minas Gerais",
   "ano": "2026",
-  "area": "",
-  "colaboradores": "",
   "fotografia": "Ana Helena Lima",
-  "construcao": "",
   "cor_fundo": "Rosa",
   "cor_texto": "Grafite"
 }
