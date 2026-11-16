@@ -55,7 +55,8 @@ img{display:block}
 .sobre-texto{position:absolute;left:calc(var(--u) * 600);width:calc(var(--u) * 520);top:calc(var(--u) * 585);transform:translateY(-50%);
   max-height:calc(var(--u) * 900);overflow:auto;font-size:max(15px, calc(var(--u) * 22));line-height:1.45}
 .sobre-texto p+p{margin-top:1em}
-.sobre-foto{position:absolute;left:calc(var(--u) * 1188);top:calc(var(--u) * 300);width:calc(var(--u) * 456);height:calc(var(--u) * 571);margin:0}
+/* foto redonda, centrada na mesma altura do círculo laranja */
+.sobre-foto{position:absolute;left:calc(var(--u) * 1158);top:calc(var(--u) * 327);width:calc(var(--u) * 516);height:calc(var(--u) * 516);margin:0;border-radius:50%;overflow:hidden}
 .sobre-foto img{width:100%;height:100%;object-fit:cover}
 .sobre-foto.vazia{border:1px solid currentColor;display:flex;align-items:center;justify-content:center;font-size:max(13px, calc(var(--u) * 18))}
 .sobre-foto.vazia span{opacity:.55}
@@ -64,7 +65,7 @@ img{display:block}
   .sobre-corpo{position:relative;left:auto;top:auto;transform:none;width:auto;height:auto;display:flex;flex-direction:column-reverse;gap:32px;padding:150px 24px 64px;max-width:560px}
   .sobre-texto,.sobre-foto{position:static;transform:none;width:auto;max-height:none;overflow:visible}
   .sobre-texto{font-size:18px}
-  .sobre-foto{width:min(100%, 380px);height:auto;aspect-ratio:456/571}
+  .sobre-foto{width:min(100%, 340px);height:auto;aspect-ratio:1;overflow:hidden}
 }
 
 /* CONTATO: arte de 2000 × 1126 que cobre a tela; os contatos ficam onde estava o logo central da arte */
