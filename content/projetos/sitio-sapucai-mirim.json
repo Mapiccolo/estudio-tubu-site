@@ -198,6 +198,10 @@
     },
     {
       "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-49.jpg",
+      "lado_a_lado": true
+    },
+    {
+      "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-52.jpg",
       "lado_a_lado": false
     },
     {
@@ -209,12 +213,8 @@
       "lado_a_lado": false
     },
     {
-      "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-52.jpg",
-      "lado_a_lado": false
-    },
-    {
       "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-53.jpg",
-      "lado_a_lado": false
+      "lado_a_lado": true
     },
     {
       "imagem": "/media/sitio-sapucai-mirim/sitio-sapucai-mirim-54.jpg",
