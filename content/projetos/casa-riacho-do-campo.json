@@ -5,11 +5,15 @@
   "capa": "/media/casa-riacho-do-campo/casa-riacho-do-campo-36.jpg",
   "fotos": [
     {
+      "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-tratada-23.jpg",
+      "lado_a_lado": false
+    },
+    {
       "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-tratada-01.jpg",
       "lado_a_lado": false
     },
     {
-      "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-tratada-02.jpg",
+      "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-tratada-22.jpg",
       "lado_a_lado": false
     },
     {
@@ -53,10 +57,6 @@
       "lado_a_lado": false
     },
     {
-      "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-tratada-13.jpg",
-      "lado_a_lado": false
-    },
-    {
       "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-tratada-14.jpg",
       "lado_a_lado": false
     },
@@ -69,31 +69,11 @@
       "lado_a_lado": false
     },
     {
-      "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-tratada-17.jpg",
-      "lado_a_lado": false
-    },
-    {
       "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-tratada-18.jpg",
       "lado_a_lado": false
     },
     {
-      "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-tratada-19.jpg",
-      "lado_a_lado": false
-    },
-    {
       "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-tratada-20.jpg",
-      "lado_a_lado": false
-    },
-    {
-      "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-tratada-21.jpg",
-      "lado_a_lado": false
-    },
-    {
-      "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-tratada-22.jpg",
-      "lado_a_lado": false
-    },
-    {
-      "imagem": "/media/casa-riacho-do-campo/casa-riacho-do-campo-tratada-23.jpg",
       "lado_a_lado": false
     },
     {
