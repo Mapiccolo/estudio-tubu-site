@@ -69,11 +69,12 @@ img{display:block}
   .sobre-texto,.sobre-foto{position:static;transform:none;width:auto;max-height:none;overflow:visible}
   .sobre-texto{font-size:18px}
   .sobre-foto{width:min(100%, 340px);height:auto;aspect-ratio:1;overflow:hidden}
-  /* celular, discreto: fundo liso e só um aro fino da cor das formas em volta da foto */
+  /* celular: um círculo enorme da cor das formas ocupa a tela; o fundo aparece só como um arco à esquerda.
+     Foto e texto ficam dentro do círculo */
   .palco-sobre{left:0;top:0;transform:none;width:100%;height:100%}
-  .s-faixa{display:none}
-  .s-circulo{width:var(--diam,130vw);left:calc(var(--cx,50vw) - var(--diam,130vw) / 2);top:calc(var(--cy,330px) - var(--diam,130vw) / 2)}
-  .s-anel{display:none}
+  .s-faixa,.s-anel{display:none}
+  .s-circulo{width:220vh;left:6vw;top:calc(50% - 110vh)}
+  .sobre-corpo{padding-left:calc(6vw + 74px)}
 }
 
 /* CONTATO: arte de 2000 × 1126 que cobre a tela; os contatos ficam onde estava o logo central da arte */
