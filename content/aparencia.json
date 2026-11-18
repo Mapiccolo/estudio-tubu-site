@@ -1,13 +1,9 @@
 {
-  "home_fundo": "",
-  "home_formas": "",
-  "home_logo": "",
   "projetos_fundo": "Cinza quente",
   "projetos_formas": "Cinza frio",
   "projetos_texto": "Grafite",
-  "sobre_fundo": "",
-  "sobre_formas": "",
-  "sobre_texto": "",
+  "sobre_fundo": "Rosa",
+  "sobre_formas": "Verde musgo",
   "contato_fundo": "Vinho",
   "contato_formas": "Rosa",
   "contato_texto": "Cinza"
