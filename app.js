@@ -91,6 +91,18 @@ function sobre() {
     <header class="proj-topo"><a href="#" class="logo" aria-label="${esc(E.nome)}"></a>${menu("sobre")}</header>
     <div class="sobre-corpo"><div class="sobre-texto">${texto}</div><figure class="sobre-foto${E.foto_sobre ? "" : " vazia"}">${foto}</figure></div>
   </div>`;
+  // celular: centra o círculo da arte na foto e acompanha a rolagem
+  const fig = app.querySelector(".sobre-foto"), raiz = app.querySelector(".sobre");
+  const centrar = () => {
+    if (!fig || !raiz || !raiz.isConnected) return;
+    const r = fig.getBoundingClientRect();
+    raiz.style.setProperty("--cx", `${r.left + r.width / 2}px`);
+    raiz.style.setProperty("--cy", `${r.top + r.height / 2}px`);
+    raiz.style.setProperty("--diam", `${r.width * 1.5}px`);
+  };
+  centrar();
+  onresize = centrar;
+  app.querySelector(".sobre-corpo").addEventListener("scroll", centrar, { passive: true });
   scrollTo(0, 0);
 }
 // Contato: arte da marca (faixas e arcos) no fundo e os contatos no lugar do logo central.
