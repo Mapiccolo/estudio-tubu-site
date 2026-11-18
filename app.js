@@ -102,7 +102,11 @@ function contato() {
   cores(fundo, CORES[A.contato_texto] || CORES["Cinza"]);
   document.title = `Contato — ${E.nome || "Estúdio Tubu"}`;
   const ig = (E.instagram || "").replace(/^@/, "");
-  const fone = (E.telefone || "").replace(/\D/g, "");
+  // telefone abre conversa no WhatsApp: no computador vai direto ao WhatsApp Web, no celular abre o app
+  const digitos = (E.telefone || "").replace(/\D/g, "");
+  const fone = digitos.length > 11 && digitos.startsWith("55") ? digitos : "55" + digitos;
+  const celular = matchMedia("(pointer: coarse)").matches;
+  const zap = celular ? `https://wa.me/${fone}` : `https://web.whatsapp.com/send?phone=${fone}`;
   app.innerHTML = `<div class="contato">
     <svg class="contato-arte" viewBox="0 0 2000 1126" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
       <rect width="2000" height="1126" fill="${fundo}"/><path fill="${formas}" stroke="${formas}" stroke-width="2" stroke-linejoin="round" d="${FORMAS_CONTATO}"/>
@@ -111,7 +115,7 @@ function contato() {
     <div class="palco-contato"><ul class="contato-lista">
       ${E.responsavel ? `<li>${esc(E.responsavel)}</li>` : ""}
       ${E.email ? `<li><a href="mailto:${esc(E.email)}">${esc(E.email)}</a></li>` : ""}
-      ${E.telefone ? `<li><a href="tel:+55${fone}">${esc(E.telefone)}</a></li>` : ""}
+      ${E.telefone ? `<li><a href="${zap}" target="_blank" rel="noopener">${esc(E.telefone)}</a></li>` : ""}
       ${ig ? `<li><a href="https://instagram.com/${esc(ig)}" target="_blank" rel="noopener">@${esc(ig)}</a></li>` : ""}
       ${E.cidade ? `<li>${esc(E.cidade)}</li>` : ""}
     </ul></div>
