@@ -102,11 +102,12 @@ function contato() {
   cores(fundo, CORES[A.contato_texto] || CORES["Cinza"]);
   document.title = `Contato — ${E.nome || "Estúdio Tubu"}`;
   const ig = (E.instagram || "").replace(/^@/, "");
-  // telefone abre conversa no WhatsApp: no computador vai direto ao WhatsApp Web, no celular abre o app
+  // telefone abre conversa no WhatsApp: no celular abre o app; no computador tenta o app do WhatsApp
+  // e, se ele não estiver instalado (a página não perde o foco), abre o WhatsApp Web
   const digitos = (E.telefone || "").replace(/\D/g, "");
   const fone = digitos.length > 11 && digitos.startsWith("55") ? digitos : "55" + digitos;
   const celular = matchMedia("(pointer: coarse)").matches;
-  const zap = celular ? `https://wa.me/${fone}` : `https://web.whatsapp.com/send?phone=${fone}`;
+  const zap = `https://wa.me/${fone}`;
   app.innerHTML = `<div class="contato">
     <svg class="contato-arte" viewBox="0 0 2000 1126" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
       <rect width="2000" height="1126" fill="${fundo}"/><path fill="${formas}" stroke="${formas}" stroke-width="2" stroke-linejoin="round" d="${FORMAS_CONTATO}"/>
@@ -115,11 +116,23 @@ function contato() {
     <div class="palco-contato"><ul class="contato-lista">
       ${E.responsavel ? `<li>${esc(E.responsavel)}</li>` : ""}
       ${E.email ? `<li><a href="mailto:${esc(E.email)}">${esc(E.email)}</a></li>` : ""}
-      ${E.telefone ? `<li><a href="${zap}" target="_blank" rel="noopener">${esc(E.telefone)}</a></li>` : ""}
+      ${E.telefone ? `<li><a href="${zap}" target="_blank" rel="noopener" class="zap">${esc(E.telefone)}</a></li>` : ""}
       ${ig ? `<li><a href="https://instagram.com/${esc(ig)}" target="_blank" rel="noopener">@${esc(ig)}</a></li>` : ""}
       ${E.cidade ? `<li>${esc(E.cidade)}</li>` : ""}
     </ul></div>
   </div>`;
+  const link = app.querySelector(".zap");
+  if (link && !celular) link.addEventListener("click", (ev) => {
+    ev.preventDefault();
+    let saiu = false;
+    const marcar = () => { saiu = true; };
+    addEventListener("blur", marcar, { once: true });
+    location.href = `whatsapp://send?phone=${fone}`;
+    setTimeout(() => {
+      removeEventListener("blur", marcar);
+      if (!saiu && document.hasFocus() && !document.hidden) location.href = `https://web.whatsapp.com/send?phone=${fone}`;
+    }, 2000);
+  });
   scrollTo(0, 0);
 }
 
