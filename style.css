@@ -41,7 +41,7 @@ img{display:block}
 /* SOBRE: arte de 2000 × 1249 que cobre a tela (azul, faixa e círculo laranja);
    texto no lado esquerdo do círculo e a foto da Marina no lado direito */
 .sobre{--u:calc((max(100vw, 100vh * 2000 / 1249) + 6px) / 2000);--laranja:#EE7F31;min-height:100vh}
-.sobre-arte{position:fixed;inset:0;overflow:hidden;background:#8CB4DB}
+.sobre-arte{position:fixed;inset:0;overflow:hidden;background:var(--fundo-sobre,#8CB4DB)}
 .palco-sobre,.sobre-corpo{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:calc(var(--u) * 2000);height:calc(var(--u) * 1249)}
 .s-faixa{position:absolute;left:calc(var(--u) * 104);width:calc(var(--u) * 164);top:-100vh;bottom:-100vh;background:var(--laranja)}
 .s-circulo{position:absolute;left:calc(var(--u) * 502);top:calc(var(--u) * -140);width:calc(var(--u) * 1450);aspect-ratio:1;border-radius:50%;background:var(--laranja)}

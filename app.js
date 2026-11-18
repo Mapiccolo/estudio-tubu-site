@@ -76,15 +76,17 @@ function projetos() {
   scrollTo(0, 0);
 }
 
-// Sobre: arte azul e laranja (faixa à esquerda, círculo grande), texto à esquerda e foto da Marina à direita
+// Sobre: arte azul e laranja (cores trocáveis no painel em "Aparência do site") (faixa à esquerda, círculo grande), texto à esquerda e foto da Marina à direita
 function sobre() {
-  cores("#8CB4DB", "#1D1B1E");
+  const fundo = CORES[A.sobre_fundo] || "#8CB4DB";
+  const formas = CORES[A.sobre_formas] || "#EE7F31";
+  cores(fundo, CORES[A.sobre_texto] || CORES["Grafite"]);
   document.title = `Sobre — ${E.nome || "Estúdio Tubu"}`;
   const texto = E.sobre ? "<p>" + esc(E.sobre).replace(/\n+/g, "</p><p>") + "</p>" : "<p>[texto sobre o estúdio]</p>";
   const foto = E.foto_sobre
     ? `<img src="${rel(E.foto_sobre)}" alt="${esc(E.responsavel || E.nome || "")}">`
     : `<span>foto da Marina</span>`;
-  app.innerHTML = `<div class="sobre">
+  app.innerHTML = `<div class="sobre" style="--fundo-sobre:${fundo};--laranja:${formas}">
     <div class="sobre-arte" aria-hidden="true"><div class="palco-sobre"><i class="s-faixa"></i><i class="s-circulo"></i><i class="s-anel"></i></div></div>
     <header class="proj-topo"><a href="#" class="logo" aria-label="${esc(E.nome)}"></a>${menu("sobre")}</header>
     <div class="sobre-corpo"><div class="sobre-texto">${texto}</div><figure class="sobre-foto${E.foto_sobre ? "" : " vazia"}">${foto}</figure></div>

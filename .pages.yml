@@ -141,6 +141,21 @@ content:
         type: select
         options:
           values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
+      - name: sobre_fundo
+        label: Página Sobre — cor principal do fundo (vazio = azul original da arte)
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
+      - name: sobre_formas
+        label: Página Sobre — cor das formas, faixa e círculo (vazio = laranja original da arte)
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
+      - name: sobre_texto
+        label: Página Sobre — cor do texto e do logo (vazio = Grafite)
+        type: select
+        options:
+          values: [Grafite, Off White, Cinza, Cinza frio, Cinza quente, Verde musgo, Vinho, Vermelho, Laranja, Rosa, Azul]
       - name: contato_fundo
         label: Página de contato — cor principal do fundo (vazio = Verde musgo)
         type: select
