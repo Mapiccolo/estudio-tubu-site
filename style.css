@@ -20,7 +20,9 @@ img{display:block}
 .lista-projetos{flex:1 1 220px;max-width:280px;display:flex;flex-direction:column;gap:6px;list-style:none;font-size:17px}
 .lista-projetos a:hover,.lista-projetos a:focus,.lista-projetos a.ativo{opacity:1;text-decoration:underline;text-underline-offset:4px}
 .thumbs{flex:999 1 560px;min-width:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.thumbs a{display:block;aspect-ratio:4/3;overflow:hidden;background:rgba(0,0,0,.12)}
+.thumbs a{display:block}
+.thumb-foto{display:block;aspect-ratio:4/3;overflow:hidden;background:rgba(0,0,0,.12)}
+.thumb-nome{display:none}
 .thumbs a:hover{opacity:1}
 .thumbs img{width:100%;height:100%;object-fit:cover}
 
@@ -121,7 +123,10 @@ img{display:block}
   .logo,.proj-topo .logo{width:68px}
   .lista-projetos{max-width:none}
   .lista-projetos a{display:block;padding:6px 0}
-  .thumbs{grid-template-columns:1fr;gap:12px}
+  /* no celular a lista some e o nome de cada projeto aparece logo acima da foto */
+  .lista-projetos{display:none}
+  .thumbs{grid-template-columns:1fr;gap:32px}
+  .thumb-nome{display:block;font-size:17px;margin-bottom:8px}
   .fotos{gap:28px;padding-inline:0}
   .fotos img{max-width:100%;max-height:none;width:100%}
   /* no celular as duplas se desfazem: cada foto ocupa a largura toda, em sequência */

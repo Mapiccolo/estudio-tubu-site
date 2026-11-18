@@ -60,7 +60,7 @@ function projetos() {
       <ul class="lista-projetos">${P.map((p, i) => `<li><a href="#p-${p.slug}" data-i="${i}">${esc(p.titulo.toLowerCase())}</a></li>`).join("")}</ul>
       <div class="thumbs">${P.map((p, i) => {
         const foto = p.capa || (listaFotos(p)[0] || {}).imagem;
-        return `<a href="#p-${p.slug}" data-i="${i}" aria-label="${esc(p.titulo)}">${foto ? `<img src="${rel(foto)}" alt="" loading="lazy">` : ""}</a>`;
+        return `<a href="#p-${p.slug}" data-i="${i}" aria-label="${esc(p.titulo)}"><span class="thumb-nome">${esc(p.titulo.toLowerCase())}</span><span class="thumb-foto">${foto ? `<img src="${rel(foto)}" alt="" loading="lazy">` : ""}</span></a>`;
       }).join("")}</div>
     </div></div>
   </div>`;
