@@ -69,11 +69,9 @@ img{display:block}
   .sobre-texto,.sobre-foto{position:static;transform:none;width:auto;max-height:none;overflow:visible}
   .sobre-texto{font-size:18px}
   .sobre-foto{width:min(100%, 340px);height:auto;aspect-ratio:1;overflow:hidden}
-  /* arte em pé: faixa na borda esquerda (o conteúdo começa depois dela) e o círculo grande em volta da foto */
-  .sobre-corpo{padding-left:calc(11vw + 22px)}
-  .sobre-foto{margin-bottom:22%}
+  /* celular, discreto: fundo liso e só um aro fino da cor das formas em volta da foto */
   .palco-sobre{left:0;top:0;transform:none;width:100%;height:100%}
-  .s-faixa{left:0;width:11vw;top:0;bottom:0}
+  .s-faixa{display:none}
   .s-circulo{width:var(--diam,130vw);left:calc(var(--cx,50vw) - var(--diam,130vw) / 2);top:calc(var(--cy,330px) - var(--diam,130vw) / 2)}
   .s-anel{display:none}
 }

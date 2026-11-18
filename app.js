@@ -98,7 +98,7 @@ function sobre() {
     const r = fig.getBoundingClientRect();
     raiz.style.setProperty("--cx", `${r.left + r.width / 2}px`);
     raiz.style.setProperty("--cy", `${r.top + r.height / 2}px`);
-    raiz.style.setProperty("--diam", `${r.width * 1.5}px`);
+    raiz.style.setProperty("--diam", `${r.width + 28}px`);
   };
   centrar();
   onresize = centrar;
