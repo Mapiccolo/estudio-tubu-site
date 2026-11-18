@@ -118,7 +118,8 @@ img{display:block}
   .thumbs{grid-template-columns:1fr;gap:12px}
   .fotos{gap:28px;padding-inline:0}
   .fotos img{max-width:100%;max-height:none;width:100%}
-  .fotos .par{gap:8px;max-width:none}
+  /* no celular as duplas se desfazem: cada foto ocupa a largura toda, em sequência */
+  .fotos .par{display:contents}
   .fim{grid-template-columns:1fr;gap:24px;padding-top:96px}
   .fim h1{font-size:34px}
   .fim .texto{font-size:16px}
