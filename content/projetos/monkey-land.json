@@ -10,14 +10,14 @@
     },
     {
       "imagem": "/media/monkey-land/monkey-land-03.jpg",
+      "lado_a_lado": true
+    },
+    {
+      "imagem": "/media/monkey-land/monkey-land-05.jpg",
       "lado_a_lado": false
     },
     {
       "imagem": "/media/monkey-land/monkey-land-04.jpg",
-      "lado_a_lado": false
-    },
-    {
-      "imagem": "/media/monkey-land/monkey-land-05.jpg",
       "lado_a_lado": false
     },
     {
