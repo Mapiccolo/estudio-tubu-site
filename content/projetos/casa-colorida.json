@@ -30,15 +30,15 @@
     },
     {
       "imagem": "/media/casa-colorida/casa-colorida-06.jpg",
-      "lado_a_lado": false
-    },
-    {
-      "imagem": "/media/casa-colorida/casa-colorida-08.jpg",
-      "lado_a_lado": false
+      "lado_a_lado": true
     },
     {
       "imagem": "/media/casa-colorida/casa-colorida-10.jpg",
       "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-colorida/casa-colorida-08.jpg",
+      "lado_a_lado": true
     },
     {
       "imagem": "/media/casa-colorida/casa-colorida-09.jpg",
