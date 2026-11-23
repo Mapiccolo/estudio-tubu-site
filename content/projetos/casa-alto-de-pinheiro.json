@@ -5,22 +5,7 @@
   "capa": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-18.jpg",
   "fotos": [
     {
-      "lado_a_lado": false
-    },
-    {
-      "lado_a_lado": false
-    },
-    {
       "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-01.jpg",
-      "lado_a_lado": false
-    },
-    {
-      "lado_a_lado": false
-    },
-    {
-      "lado_a_lado": false
-    },
-    {
       "lado_a_lado": false
     },
     {
@@ -28,30 +13,19 @@
       "lado_a_lado": false
     },
     {
-      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-08.jpg",
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-17.jpg",
       "lado_a_lado": false
     },
     {
-      "lado_a_lado": false
-    },
-    {
-      "lado_a_lado": false
-    },
-    {
-      "lado_a_lado": false
-    },
-    {
-      "lado_a_lado": false
-    },
-    {
-      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-13.jpg",
-      "lado_a_lado": false
-    },
-    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-19.jpg",
       "lado_a_lado": false
     },
     {
       "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-15.jpg",
+      "lado_a_lado": false
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-13.jpg",
       "lado_a_lado": false
     },
     {
@@ -63,17 +37,7 @@
       "lado_a_lado": false
     },
     {
-      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-17.jpg",
-      "lado_a_lado": false
-    },
-    {
-      "lado_a_lado": false
-    },
-    {
-      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-19.jpg",
-      "lado_a_lado": false
-    },
-    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-08.jpg",
       "lado_a_lado": false
     },
     {
@@ -81,13 +45,7 @@
       "lado_a_lado": false
     },
     {
-      "lado_a_lado": false
-    },
-    {
       "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-23.jpg",
-      "lado_a_lado": false
-    },
-    {
       "lado_a_lado": false
     },
     {
@@ -119,12 +77,6 @@
       "lado_a_lado": false
     },
     {
-      "lado_a_lado": false
-    },
-    {
-      "lado_a_lado": false
-    },
-    {
       "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-35.jpg",
       "lado_a_lado": false
     },
@@ -138,12 +90,6 @@
     },
     {
       "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-38.jpg",
-      "lado_a_lado": false
-    },
-    {
-      "lado_a_lado": false
-    },
-    {
       "lado_a_lado": false
     }
   ],
