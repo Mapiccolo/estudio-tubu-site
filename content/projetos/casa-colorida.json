@@ -53,10 +53,11 @@
       "lado_a_lado": false
     }
   ],
-  "texto": "Reforma de casa para aluguel de fim de semana na Serra da Mantiqueira.",
   "localizacao": "Sapucaí Mirim, Minas Gerais",
   "ano": "2026",
+  "area": "60",
   "fotografia": "Ana Helena Lima",
+  "construcao": "Augusto Martins",
   "cor_fundo": "Cinza frio",
   "cor_texto": "Grafite"
 }
