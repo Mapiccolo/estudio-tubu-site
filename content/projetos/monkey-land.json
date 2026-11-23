@@ -25,10 +25,6 @@
       "lado_a_lado": false
     },
     {
-      "imagem": "/media/monkey-land/monkey-land-10.jpg",
-      "lado_a_lado": false
-    },
-    {
       "imagem": "/media/monkey-land/monkey-land-11.jpg",
       "lado_a_lado": false
     },
@@ -57,6 +53,10 @@
       "lado_a_lado": false
     },
     {
+      "imagem": "/media/monkey-land/monkey-land-21.jpg",
+      "lado_a_lado": false
+    },
+    {
       "imagem": "/media/monkey-land/monkey-land-18.jpg",
       "lado_a_lado": true
     },
@@ -65,19 +65,15 @@
       "lado_a_lado": false
     },
     {
-      "imagem": "/media/monkey-land/monkey-land-21.jpg",
+      "imagem": "/media/monkey-land/monkey-land-28.jpg",
       "lado_a_lado": false
     },
     {
       "imagem": "/media/monkey-land/monkey-land-23.jpg",
-      "lado_a_lado": false
+      "lado_a_lado": true
     },
     {
       "imagem": "/media/monkey-land/monkey-land-25.jpg",
-      "lado_a_lado": false
-    },
-    {
-      "imagem": "/media/monkey-land/monkey-land-28.jpg",
       "lado_a_lado": false
     }
   ],
