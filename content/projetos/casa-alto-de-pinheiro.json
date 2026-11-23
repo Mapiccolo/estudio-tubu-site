@@ -56,6 +56,10 @@
     },
     {
       "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-16.jpg",
+      "lado_a_lado": true
+    },
+    {
+      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-28.jpg",
       "lado_a_lado": false
     },
     {
@@ -96,10 +100,6 @@
     },
     {
       "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-27.jpg",
-      "lado_a_lado": false
-    },
-    {
-      "imagem": "/media/casa-alto-de-pinheiro/casa-alto-de-pinheiro-28.jpg",
       "lado_a_lado": false
     },
     {
